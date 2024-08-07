@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 10kg Pack",
+      "category": "Dog",
+      "image": "https://m.media-amazon.com/images/I/41Z6Wo7cJvL.SX300_SY300_QL70_FMwebp.jpg",
+      "Brand": "Pedigree",
+      "price": "212644",
+      "Qty": 1
+    },
+    {
+      "id": "7",
+      "name": "TUNAI Fish Food | 100g | with 26% Protein, 1.2 MM Pellets Aquarium Fish Food for All SIZE FISH",
+      "category": "Fish",
+      "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg",
+      "Brand": "TUNAI",
+      "price": "1669",
+      "Qty": 1
+    },
+    {
+      "id": "10",
+      "name": "Boltz Bird Food for Budgies - 1.2 kg | Natural & Healthy Premium Mix Seeds",
+      "category": "Bird",
+      "image": "https://m.media-amazon.com/images/I/51EQmnWjQxL.SX300_SY300_QL70_FMwebp.jpg",
+      "Brand": "BOLTZ",
+      "price": 399,
+      "Qty": 1
+    },
+    {
+      "id": "11",
+      "name": "Boltz Bird Food for Cockatiel & Lovebirds Mix Seeds, Canary Seed (Mix Seed, 1200 Gm)",
+      "category": "Bird",
+      "image": "https://m.media-amazon.com/images/I/4177Z9u3j9L.SX300_SY300_QL70_FMwebp.jpg",
+      "Brand": "BOLTZ",
+      "price": 3500,
+      "Qty": 1
+    },
+    {
+      "id": "12",
+      "name": "TED TABBIES New Optimum Fish Food 2024-1Kg Highly Nutritious Fish Food For All Aquarium Fish Pouch",
+      "category": "Fish",
+      "image": "https://m.media-amazon.com/images/I/61ngF3OBp+L.AC_UL320.jpg",
+      "Brand": "Generic",
+      "price": "100",
+      "Qty": 1
+    },
+    {
+      "id": "013c",
+      "name": "p",
+      "price": "1667",
+      "category": "Fish",
+      "Brand": "Generic",
+      "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "ecc8",
+      "username": "salih",
+      "email": "salih@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678"
+    },
+    {
+      "id": "bd95",
+      "username": "priyanandan",
+      "email": "priyanandan@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "cart": [
+        {
+          "id": "2",
+          "name": "Hill's Science Diet Adult Optimal Care Chicken Recipe Dry Cat Food, 4 lb Bag",
+          "category": "Cat",
+          "image": "https://assets.petco.com/petco/image/upload/f_auto,q_auto/3153926-center-2",
+          "Brand": "Hill's Pet Nutrition",
+          "price": 7184,
+          "Qty": 4,
+          "quantity": 1
+        }
+      ],
+      "order": []
+    },
+    {
+      "id": "ada3",
+      "username": "anas",
+      "email": "anas@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "cart": [],
+      "order": []
+    },
+    {
+      "id": "17d7",
+      "username": "nandujk",
+      "email": "jk@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "cart": [
+        {
+          "id": "6",
+          "name": "Meat Up Kitten (1-12 months) Dry Cat Food, Ocean Fish, 1.2kg (Buy 1 Get 1 Free), Total 2.4 Kg Pack",
+          "category": "Cat",
+          "image": "https://m.media-amazon.com/images/I/71MSPhI1mRL.SX425.jpg",
+          "Brand": "Meat Up",
+          "price": 432,
+          "Qty": 1487,
+          "quantity": 5
+        },
+        {
+          "id": "2",
+          "name": "Hill's Science Diet Adult Optimal Care Chicken Recipe Dry Cat Food, 4 lb Bag",
+          "category": "Cat",
+          "image": "https://assets.petco.com/petco/image/upload/f_auto,q_auto/3153926-center-2",
+          "Brand": "Hill's Pet Nutrition",
+          "price": 7184,
+          "Qty": 1059,
+          "quantity": 1
+        }
+      ],
+      "order": []
+    },
+    {
+      "id": "f1e3",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "1234567890",
+      "confirmPassword": "1234567890",
+      "cart": [
+        {
+          "id": "7",
+          "name": "TUNAI Fish Food | 100g | with 26% Protein, 1.2 MM Pellets Aquarium Fish Food for All SIZE FISH",
+          "category": "Fish",
+          "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg",
+          "Brand": "TUNAI",
+          "price": "1669",
+          "Qty": 1,
+          "quantity": 1
+        }
+      ],
+      "order": []
+    }
+  ]
+}
