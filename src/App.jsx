@@ -15,8 +15,9 @@ import Cart from './components/cart'
 // import ModernLoginPage from './components/loginpage'
 import AdminHome from './pages/admin/admin'
 import Userdetails from './pages/admin/userdetails'
-import Productdetails from './pages/admin/productdetails'
+// import Productdetails from './pages/admin/productdetails'
 import AddProduct from './pages/admin/AddProduct'
+import Productdetails from './pages/admin/productdetails'
 
 
 
@@ -38,6 +39,7 @@ function App() {
        <Route path='/admin' element={<AdminHome />} />
        <Route path='/adminproduct' element={<Productdetails/>}/>
        <Route path='/userdetails' element={<Userdetails />}/>
+       
        <Route path='/productdetails' element={<Productdetails />}/>
        <Route path="/addproduct" element={<AddProduct />}/>
        <Route path='login' element={<LoginPage/>}/>

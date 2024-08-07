@@ -49,7 +49,7 @@ const AdminHome = () => {
             <Link to="/userdetails">
             <div
               className="bg-white p-6 rounded-lg shadow-md cursor-pointer hover:bg-blue-50 transition duration-300 mt-40 w-64 h-64 flex flex-col justify-center"
-              onClick={() => navigate('/user-details')}
+              
             >
               <div className="flex items-center mb-4">
                 <FiUsers className="text-black text-4xl mr-3" />

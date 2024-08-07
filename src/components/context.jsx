@@ -121,7 +121,8 @@ const Admindelete=(itemid)=>{
         size,
         isLogged,
         setIsLogged,
-        Admindelete
+        Admindelete,
+        setCart
       }}
     >
       {children}

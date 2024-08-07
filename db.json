@@ -83,45 +83,6 @@
       "order": []
     },
     {
-      "id": "ada3",
-      "username": "anas",
-      "email": "anas@gmail.com",
-      "password": "12345678",
-      "confirmPassword": "12345678",
-      "cart": [],
-      "order": []
-    },
-    {
-      "id": "17d7",
-      "username": "nandujk",
-      "email": "jk@gmail.com",
-      "password": "123123",
-      "confirmPassword": "123123",
-      "cart": [
-        {
-          "id": "6",
-          "name": "Meat Up Kitten (1-12 months) Dry Cat Food, Ocean Fish, 1.2kg (Buy 1 Get 1 Free), Total 2.4 Kg Pack",
-          "category": "Cat",
-          "image": "https://m.media-amazon.com/images/I/71MSPhI1mRL.SX425.jpg",
-          "Brand": "Meat Up",
-          "price": 432,
-          "Qty": 1487,
-          "quantity": 5
-        },
-        {
-          "id": "2",
-          "name": "Hill's Science Diet Adult Optimal Care Chicken Recipe Dry Cat Food, 4 lb Bag",
-          "category": "Cat",
-          "image": "https://assets.petco.com/petco/image/upload/f_auto,q_auto/3153926-center-2",
-          "Brand": "Hill's Pet Nutrition",
-          "price": 7184,
-          "Qty": 1059,
-          "quantity": 1
-        }
-      ],
-      "order": []
-    },
-    {
       "id": "f1e3",
       "username": "Admin",
       "email": "admin@gmail.com",
