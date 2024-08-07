@@ -3,6 +3,7 @@ import Footer from "./footer";
 import { Link } from "react-router-dom";
 
 const Homepage = () => {
+  
   return (
     <div className="relative w-full h-screen bg-customGray">
       <div className="flex flex-col md:flex-row h-full">

@@ -8,7 +8,7 @@ const Context = ({ children }) => {
   const [user, setUser] = useState([]);
   const [cart, setCart] = useState([]);
   const [isLogged, setIsLogged] = useState(false);
-  const [userdetail, setuserdetail] = useState();
+  // const [userdetail, setuserdetail] = useState();
   const id = localStorage.getItem("id");
 
   useEffect(() => {

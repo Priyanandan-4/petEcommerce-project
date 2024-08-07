@@ -6,7 +6,10 @@ import { Mycontext } from "./context";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+// context  
   const { size, isLogged, setIsLogged,Admindelete } = useContext(Mycontext);
+
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   console.log(size);
 

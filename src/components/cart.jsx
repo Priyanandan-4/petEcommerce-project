@@ -16,12 +16,16 @@ function Cart() {
     }
   }, [id, setCart]);
 
+
+
   const handleBuyNow = () => {
     if (cart.length > 0) {
       navigate('/');
     }
   };
 
+
+  
   return (
     <>
       <div className="container mx-auto px-4 py-6">

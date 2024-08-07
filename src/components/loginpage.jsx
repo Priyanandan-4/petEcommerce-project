@@ -5,7 +5,13 @@ import { Mycontext } from "./context";
 import { useNavigate } from "react-router-dom";
 
 const ModernLoginPage = () => {
+
+//useContext 
   const { user, setIsLogged } = useContext(Mycontext);
+
+
+
+  // useNavigate using 
   const navigate = useNavigate();
 
   const formik = useFormik({
@@ -134,4 +140,6 @@ const ModernLoginPage = () => {
     </div>
   );
 };
+
+
 export default ModernLoginPage;

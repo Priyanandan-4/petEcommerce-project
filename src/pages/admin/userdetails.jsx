@@ -92,7 +92,7 @@ const Userdetails = () => {
                 <button className="bg-green-400 text-black p-2 rounded-lg font-bold"
                  onClick={() => handleRowClick(item)}
                  >
-                  ViewOrder
+                  Order
                 </button>
               </td>
               <td className="py-2 px-4">
@@ -100,7 +100,7 @@ const Userdetails = () => {
                   className="bg-yellow-400 p-2 rounded-lg font-bold" 
                   onClick={() => handleOrderClick(item)}
                 >
-                  ViewCart
+                  Cart
                 </button>
               </td>
               <td className="py-2 px-4">
