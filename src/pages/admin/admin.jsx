@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiShoppingCart, FiUsers } from 'react-icons/fi';
 import { Link, useNavigate } from 'react-router-dom';
-import Productdetails from './productdetails';
+
 
 const AdminHome = () => {
   const navigate = useNavigate();

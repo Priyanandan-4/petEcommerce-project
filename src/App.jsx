@@ -18,6 +18,9 @@ import Userdetails from './pages/admin/userdetails'
 // import Productdetails from './pages/admin/productdetails'
 import AddProduct from './pages/admin/AddProduct'
 import Productdetails from './pages/admin/productdetails'
+import PaymentSectionPage from './components/payment'
+import { Toaster } from 'react-hot-toast'
+import CategorySection from './components/category'
 
 
 
@@ -26,6 +29,7 @@ function App() {
 
   return (
     <div>
+      <Toaster/>
        <BrowserRouter>
        <Routes>
         
@@ -34,6 +38,7 @@ function App() {
        <Route path='/products'element={<Product/>}/>
        <Route path='/about'element={<About/>}/>
        <Route path='/cart' element={<Cart/>}/>
+       <Route path='/category' element={<CategorySection/>}/>
        </Route>
        <Route path='signup' element={<SignupPage/>}/>
        <Route path='/admin' element={<AdminHome />} />
@@ -43,6 +48,8 @@ function App() {
        <Route path='/productdetails' element={<Productdetails />}/>
        <Route path="/addproduct" element={<AddProduct />}/>
        <Route path='login' element={<LoginPage/>}/>
+       <Route path='/payment' element={<PaymentSectionPage/>}/>
+      
        </Routes>
        </BrowserRouter>
         

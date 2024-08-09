@@ -51,17 +51,20 @@
       "price": "1667",
       "category": "Fish",
       "Brand": "Generic",
-      "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg"
+      "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg",
+      "Qty": 1
+    },
+    {
+      "id": "bc37",
+      "name": "Salih",
+      "price": "2123",
+      "category": "Fish",
+      "Brand": "Generic",
+      "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg",
+      "Qty": 1
     }
   ],
   "user": [
-    {
-      "id": "ecc8",
-      "username": "salih",
-      "email": "salih@gmail.com",
-      "password": "12345678",
-      "confirmPassword": "12345678"
-    },
     {
       "id": "bd95",
       "username": "priyanandan",
@@ -76,8 +79,28 @@
           "image": "https://assets.petco.com/petco/image/upload/f_auto,q_auto/3153926-center-2",
           "Brand": "Hill's Pet Nutrition",
           "price": 7184,
-          "Qty": 4,
+          "Qty": 9,
           "quantity": 1
+        },
+        {
+          "id": "013c",
+          "name": "p",
+          "price": "1667",
+          "category": "Fish",
+          "Brand": "Generic",
+          "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg",
+          "quantity": 6,
+          "Qty": 1
+        },
+        {
+          "id": "7",
+          "name": "TUNAI Fish Food | 100g | with 26% Protein, 1.2 MM Pellets Aquarium Fish Food for All SIZE FISH",
+          "category": "Fish",
+          "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg",
+          "Brand": "TUNAI",
+          "price": "1669",
+          "Qty": 1,
+          "quantity": 50
         }
       ],
       "order": []
@@ -97,6 +120,66 @@
           "Brand": "TUNAI",
           "price": "1669",
           "Qty": 1,
+          "quantity": 1
+        }
+      ],
+      "order": []
+    },
+    {
+      "id": "68de",
+      "username": "nanan",
+      "email": "mamam@gmail.com",
+      "password": "123123123",
+      "confirmPassword": "123123123",
+      "cart": [
+        {
+          "id": "1",
+          "name": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 10kg Pack",
+          "category": "Dog",
+          "image": "https://m.media-amazon.com/images/I/41Z6Wo7cJvL.SX300_SY300_QL70_FMwebp.jpg",
+          "Brand": "Pedigree",
+          "price": "212644",
+          "Qty": 3,
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "name": "TUNAI Fish Food | 100g | with 26% Protein, 1.2 MM Pellets Aquarium Fish Food for All SIZE FISH",
+          "category": "Fish",
+          "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg",
+          "Brand": "TUNAI",
+          "price": "1669",
+          "Qty": 3,
+          "quantity": 49
+        },
+        {
+          "id": "10",
+          "name": "Boltz Bird Food for Budgies - 1.2 kg | Natural & Healthy Premium Mix Seeds",
+          "category": "Bird",
+          "image": "https://m.media-amazon.com/images/I/51EQmnWjQxL.SX300_SY300_QL70_FMwebp.jpg",
+          "Brand": "BOLTZ",
+          "price": 399,
+          "Qty": 5,
+          "quantity": 3
+        },
+        {
+          "id": "11",
+          "name": "Boltz Bird Food for Cockatiel & Lovebirds Mix Seeds, Canary Seed (Mix Seed, 1200 Gm)",
+          "category": "Bird",
+          "image": "https://m.media-amazon.com/images/I/4177Z9u3j9L.SX300_SY300_QL70_FMwebp.jpg",
+          "Brand": "BOLTZ",
+          "price": 3500,
+          "Qty": 5,
+          "quantity": 2
+        },
+        {
+          "id": "bc37",
+          "name": "Salih",
+          "price": "2123",
+          "category": "Fish",
+          "Brand": "Generic",
+          "image": "https://m.media-amazon.com/images/I/71MGQvD1d7L.SY355.jpg",
+          "Qty": 9,
           "quantity": 1
         }
       ],

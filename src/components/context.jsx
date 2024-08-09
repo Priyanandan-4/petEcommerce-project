@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { createContext, useEffect, useState } from "react";
+import toast from 'react-hot-toast';
 
 export const Mycontext = createContext();
 
@@ -37,10 +38,6 @@ const Admindelete=(itemid)=>{
       
     })
 }
-
-
-
-
   useEffect(() => {
     axios
       .get(`http://localhost:8000/user`)
@@ -80,33 +77,40 @@ const Admindelete=(itemid)=>{
   };
 
   const addToCart = (elem) => {
-    setCart((prevCart) => {
-      const existingProduct = prevCart.find((item) => item.id === elem.id);
-
-      let updatedCart;
-
-      if (existingProduct) {
-        // If the product already exists in the cart, increment its quantity
-        updatedCart = prevCart.map((item) =>
-          item.id === elem.id ? { ...item, quantity: item.quantity + 1 } : item
-        );
-      } else {
-        // If the product is not in the cart, add it with a quantity of 1
-        updatedCart = [...prevCart, { ...elem, quantity: 1 }];
-      }
-
-      // Sync the cart with the backend
-      if (id) {
-        axios
-          .patch(`http://localhost:8000/user/${id}`, { cart: updatedCart })
-          .then(() => console.log("Cart updated in backend"))
-          .catch((error) =>
-            console.error("Error updating cart in backend:", error)
+    if(!id){
+      alert("please login")
+    }
+    else{
+      setCart((prevCart) => {
+        const existingProduct = prevCart.find((item) => item.id === elem.id);
+  
+        let updatedCart;
+  
+        if (existingProduct) {
+          
+          updatedCart = prevCart.map((item) =>
+            item.id === elem.id ? { ...item, quantity: item.quantity + 1 } : item
           );
-      }
-
-      return updatedCart;
-    });
+        } else {
+          updatedCart = [...prevCart, { ...elem, quantity: 1 }];
+        }
+  
+        if (id) {
+          axios
+            .patch(`http://localhost:8000/user/${id}`, { cart: updatedCart })
+            .then(() => console.log("Cart updated in backend"))
+            .catch((error) =>
+              console.error("Error updating cart in backend:", error)
+            );
+            toast.success("item added")
+            
+        }
+       
+  
+        return updatedCart;
+      });
+    }
+    
   };
 
   return (

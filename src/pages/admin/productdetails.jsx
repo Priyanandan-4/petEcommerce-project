@@ -30,7 +30,7 @@ const Productdetails = () => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setEditedProduct((prev) => ({ ...prev, [name]: value }));
+    setEditedProduct((prev) => ({ ...prev, [name]: value }));     
   };
 
   const handleUpdateProduct = async (productId) => {

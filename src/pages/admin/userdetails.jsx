@@ -69,7 +69,7 @@ const Userdetails = () => {
       <div className="p-4 w-full overflow-x-auto">
         <table className="min-w-full bg-white border border-gray-200">
           <thead>
-            <tr className="border-b border-black bg-gray-400">
+            <tr className="border-b border-black bg-custom-red">
               <th className="py-2 px-4">ID</th>
               <th className="py-2 px-4">Name</th>
               <th className="py-2 px-4">Email</th>
@@ -86,17 +86,9 @@ const Userdetails = () => {
                 <td className="py-2 px-4 text-black">{item.id}</td>
                 <td className="py-2 px-4 text-black">{item.username}</td>
                 <td className="py-2 px-4 text-black">{item.email}</td>
-                {/* <td className="py-2 px-4">
-                  <button
-                    className="bg-green-400 text-black p-2 rounded-lg font-bold"
-                    onClick={() => handleRowClick(item)}
-                  >
-                    Order
-                  </button>
-                </td> */}
                 <td className="py-2 px-4">
                   <button
-                    className="bg-yellow-400 p-2 rounded-lg font-bold"
+                    className="bg-black text-white p-2 rounded-lg font-bold"
                     onClick={() => handleOrderClick(item)}
                   >
                     Cart
@@ -104,7 +96,7 @@ const Userdetails = () => {
                 </td>
                 <td className="py-2 px-4">
                   <button
-                    className="bg-red-500 text-black p-2 rounded-lg font-bold"
+                    className="bg-black text-white p-2 rounded-lg font-bold"
                     onClick={() => handleDelete(item.id)}
                   >
                     Delete

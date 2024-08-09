@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import { Mycontext } from './context';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function Cart() {
@@ -83,6 +83,7 @@ function Cart() {
               <span className="text-xl font-bold">
                 Total Price: ₹{cart.reduce((acc, item) => acc + item.Qty * item.price, 0)}
               </span>
+              <Link to='/payment'>
               <button
                 className={`bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition-colors font-bold ${cart.length === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
                 onClick={handleBuyNow}
@@ -90,6 +91,7 @@ function Cart() {
               >
                 Buy Now
               </button>
+              </Link>
             </div>
           </div>
         ) : (
